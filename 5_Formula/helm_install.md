@@ -31,6 +31,14 @@ Install Prometheus to provide metrics data:
 helm install prometheus bitnami/prometheus
 ```
 
+To list all installed Helm charts:
+```bash
+helm list
+```
+@rifaterdemsahin ➜ /workspaces/ThanosProxy (main) $ helm list
+NAME            NAMESPACE       REVISION        UPDATED                                 STATUS  CHART                    APP VERSION
+prometheus      default         1               2024-11-20 13:38:27.754948366 +0000 UTC deployedprometheus-1.3.28        2.55.1     
+
 Customize values if needed:
 ```bash
 helm install prometheus bitnami/prometheus \
