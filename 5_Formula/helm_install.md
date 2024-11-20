@@ -47,6 +47,12 @@ helm install prometheus bitnami/prometheus \
   --set pushgateway.enabled=false
 ```
 
+### **Remove Prometheus Installation**
+
+To uninstall Prometheus, use the following command:
+```bash
+helm uninstall prometheus
+```
 ---
 
 ### **4. Install Thanos with Bitnami Helm Chart**

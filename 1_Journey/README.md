@@ -10,6 +10,8 @@
     - Add Helm repo
     - Update Helm repo
     - Add Prometheus (Collect metrics from instance or the pod)
+    -- Install with yalm config
+    -- Install with parameters at start
     - Set up the ingress
     - Expose remote write (do it from Prometheus with config)
     - Configure the receiver for Thanos
