@@ -1,1 +1,3 @@
-Iterate inside
+- For setups
+- Yamls
+- Steps of execution
